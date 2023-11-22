@@ -10,11 +10,11 @@ for(i=1; i<=100; i++){
     list.innerHTML += li
     if(i%15 == 0){
         console.log(i + " " + f + " " + b)
-        list.innerhtml += f + b
+        list.innerHTML += f + b
     }
     else if(i%3 == 0){
         console.log(i + " " + f)
-        list.innerHTML += f
+        list.innerHTML += f 
     }
     else if(i%5 == 0){
         console.log(i + " " + b)
